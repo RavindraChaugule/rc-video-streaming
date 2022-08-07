@@ -12,7 +12,7 @@ if (hasMediaSupport()) {
   const canvasImageStore = document.querySelector("#canvasImageStore");
 
   // Use selfie
-  let isSelfie = true;
+  let isSelfie = false;
 
   // Current video stream
   let videoStream;
